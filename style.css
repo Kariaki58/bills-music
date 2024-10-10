@@ -10,6 +10,8 @@ html, body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
+    max-width: 1000px;
+    margin: 0 auto;
     background-color: #f4f4f4;
 }
 
@@ -104,23 +106,21 @@ header ul li a:hover {
 }
 
 /* About Section */
-#about {
-    padding: 3rem 1rem;
-    background-color: #fff;
+.about {
     text-align: center;
 }
 
-#about h2 {
+.about h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
 
-#about p {
+.about p {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
 
-#about img {
+.about img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
@@ -239,7 +239,7 @@ footer .socials li a:hover {
         font-size: 1rem;
     }
 
-    #about img,
+    .about img,
     #tour img {
         max-width: 90%;
     }
